@@ -95,6 +95,10 @@ Log megnezese:
 ```
 docker logs my-tomcat
 ```
+Build github-bol
+```
+docker build -t my-tomcat https://github.com/dobrosi/docker-test.git#main:tomcat
+```
 Docker registry
 ```
 docker pull registry
